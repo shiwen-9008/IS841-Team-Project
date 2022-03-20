@@ -164,7 +164,6 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="SYSTEM"/>
       </operator>
-      <operator activated="true" class="set_minus" compatibility="9.10.001" expanded="true" height="82" name="Set Minus" width="90" x="179" y="391"/>
       <connect from_op="Open article File" from_port="file" to_op="Read CSV" to_port="file"/>
       <connect from_op="Read CSV" from_port="output" to_op="Join" to_port="left"/>
       <connect from_op="Open transcation File" from_port="file" to_op="Read CSV (2)" to_port="file"/>
